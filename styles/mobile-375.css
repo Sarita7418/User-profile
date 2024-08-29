@@ -1,9 +1,9 @@
 :root {
---BUTTON-FOLLOW: rgba(4, 107, 165, 1);
---RED-RECTANGLE: rgba(185, 62, 69, 1);
---BUTTON-SEND: rgba(4, 107, 165, 0.2);
---BACKGROUND-COLOR: rgba(9, 84, 115, 0.05);
---WHITE: rgba(255, 255, 255, 1);
+  --BUTTON-FOLLOW: rgba(4, 107, 165, 1);
+  --RED-RECTANGLE: rgba(185, 62, 69, 1);
+  --BUTTON-SEND: rgba(4, 107, 165, 0.2);
+  --BACKGROUND-COLOR: rgba(9, 84, 115, 0.05);
+  --WHITE: rgba(255, 255, 255, 1);
 }
 
 * {
@@ -17,4 +17,67 @@ body {
   background-image: url("/assets/BACKGROUND.png");
   background-size: 375px;
   background-repeat: no-repeat;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+
+.prof{
+  position: absolute;
+  top: 65px;
+  left: 50%; 
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.profile-content {
+  font-weight: 400;
+  margin: 40px 25px 12px;
+  border-radius: 20px;
+  position: relative;
+  top: 30px;
+  background-color: var(--WHITE);
+  padding: 50px 10px 20px;
+  text-align: center;
+ box-shadow: 0.2px 1px 15px 0.2px var(--BUTTON-FOLLOW); 
+}
+
+.profile-content p{
+  margin: 8px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Follow{
+  border-radius: 10px;
+  background-color: var(--BUTTON-FOLLOW);
+  padding: 10px 80px;
+  margin: 1px 10px 0px;
+  border: none;
+  color: var(--WHITE);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.plane{
+  border-radius: 10px;
+  border: none;
+  padding: 10px 18px;
+  margin: 1px 10px;
+  background-color: var(--BUTTON-SEND);
+
+ 
+}
+
+.body-conteiner{
+  margin:50px;
 }
