@@ -1,0 +1,20 @@
+:root {
+--BUTTON-FOLLOW: rgba(4, 107, 165, 1);
+--RED-RECTANGLE: rgba(185, 62, 69, 1);
+--BUTTON-SEND: rgba(4, 107, 165, 0.2);
+--BACKGROUND-COLOR: rgba(9, 84, 115, 0.05);
+--WHITE: rgba(255, 255, 255, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  background-image: url("/assets/BACKGROUND.png");
+  background-size: 375px;
+  background-repeat: no-repeat;
+}
