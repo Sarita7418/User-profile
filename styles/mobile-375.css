@@ -18,3 +18,17 @@ body {
   background-size: 375px;
   background-repeat: no-repeat;
 }
+.follows {
+  background-color: var(--RED-RECTANGLE);
+  border-radius: 20px;
+  padding: 10px;
+  width: 80px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--WHITE);
+  margin: 0;
+  text-align: center;
+}
