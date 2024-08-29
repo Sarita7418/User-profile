@@ -18,3 +18,19 @@ body {
   background-size: 375px;
   background-repeat: no-repeat;
 }
+
+.friends{
+margin-left: 119px;
+width: 374.93px;
+height: 63.42px;
+
+}
+.friends img{
+  margin: 3px;
+}
+.friends p{
+  font-weight: 700;
+  font-size: 13px;
+  margin: 5px;
+}
+
