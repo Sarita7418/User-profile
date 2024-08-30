@@ -18,3 +18,19 @@ body {
   background-size: 375px;
   background-repeat: no-repeat;
 }
+
+.gallery {
+  border-top-left-radius: 50% ;
+  border-bottom-left-radius: 50%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 300px;
+  
+  
+}
+.gallery-item {
+  overflow: hidden;
+}
+
+
