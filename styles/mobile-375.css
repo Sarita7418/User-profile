@@ -18,3 +18,12 @@ body {
   background-size: 375px;
   background-repeat: no-repeat;
 }
+.buttom{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.buttom img{
+  width: 20px;
+  height: 22px;
+}
